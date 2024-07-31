@@ -1,0 +1,36 @@
+
+.about-us-section {
+  padding: 0px;
+  overflow: hidden;
+  background-color: #401c11;
+}
+
+.about-us-image {
+  float: left;
+  width: 40%; 
+  margin-right: 20px; 
+}
+
+.about-us-image img {
+  padding: 50px;
+  width: 100%;
+  display: block;
+  border-radius: 40px;
+  filter: none;
+  padding: 10px 20px; 
+}
+
+.about-us-text {
+  overflow: hidden; 
+  padding: 20px;
+}
+
+.about-us-text h2 {
+  font-size: 32px;
+  color: #cdd67c;
+}
+
+.about-us-text p {
+  font-size: 18px;
+  color: #a1a860;
+}

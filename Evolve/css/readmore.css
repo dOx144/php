@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.item-details {
+    display: flex;
+    flex-wrap: wrap; /* Ensure items wrap to new line */
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    max-width: 100%; /* Adjusted max-width */
+}
+
+.item-details img {
+    width: 350px;
+    height: fit-content;
+    margin-right: 20px;
+}
+
+.item-content {
+    flex: 1;
+}
+
+.item-details h2 {
+    font-size: 28px;
+    color: #333;
+    margin: 0;
+    margin-right: 20px; /* Adjusted margin-right */
+    margin-bottom: 10px;
+}
+
+.item-details p {
+    font-size: 18px;
+    color: #666;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.item-details .category-link {
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+}
+
+.item-details .category-link:hover {
+    text-decoration: underline;
+}
+
+.item-details .description {
+    display: none;
+    margin-top: 10px;
+    max-width: 100%; /* Adjusted max-width */
+}
+
+.item-details .read-more-button {
+    font-size: 18px;
+    color: #007bff;
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.item-details .read-more-button:hover {
+    text-decoration: underline;
+}
+
+.item-details .buttons {
+    display: flex;
+    flex-wrap: wrap; /* Ensure buttons wrap to new line */
+    justify-content: left;
+    margin-top: 20px; /* Adjusted margin-top */
+}
+
+.item-details .add-to-cart-button,
+.item-details .buy-now-button {
+    font-size: 18px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    margin: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.item-details .buy-now-button {
+    background-color: #28a745;
+}

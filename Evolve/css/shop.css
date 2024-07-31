@@ -1,0 +1,76 @@
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #3d3939;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.flex-container>div {
+  border: solid silver 2px;
+  background-color: white;
+  border-radius: 10px;
+  width: 300px;
+  height: 430px;
+  margin: 5px;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+}
+
+p {
+  color: rgb(23, 85, 23);
+}
+
+.pro {
+  height: 290px;
+  width: 290px;
+  padding: 5px;
+  object-fit: cover;
+}
+
+.flex-container>div:hover {
+  background-color: black;
+  transform: scale(1.06);
+  color: white;
+  transition: all 0.8s ease;
+}
+
+button {
+  font-size: 18px;
+  padding: 18px;
+  border: none;
+  margin-top: 15px;
+  color: white;
+  background-color: black;
+  display: inline-block;
+  border-radius: 15px;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+
+button:hover {
+  background-color: rgb(145, 145, 145);
+  color: black;
+}
+
+.product h2 {
+  background-color: #3d3939;
+  padding: 20px;
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  margin-top: 0;
+}
+
+h4 {
+  margin-top: 10px;
+  font-size: 30px;
+}
+
+.flex-container>div img {
+  max-width: 100%;
+  max-height: 200px;
+}

@@ -1,0 +1,269 @@
+@media screen and (max-width: 940px){
+    .side-menu a{
+        font-size: 16px;
+    }
+    .side-menu a span{
+        display: none;
+    }
+    .side-menu a img{
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 536px){
+    .brand-name h1{
+        font-size: 16px;
+    }
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins, sans-serif;';
+}
+
+body{
+    min-height: 100vh;
+    position: fixed;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1,h2{
+    color: white;
+}
+
+.side-menu{
+    position: fixed;
+    background: #233b61;
+    width: 18vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.side-menu .brand-name{
+    font-size: 22px;
+    text-align: center;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.side-menu a{
+    font-size: 22px;
+    padding: 10px 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.side-menu a:hover{
+    background: white;
+    color: #233b61;
+}
+
+img{
+    width: 35px;
+}
+
+.center-containers {
+    position: relative;
+    margin-bottom: 300px;
+    max-width: 900px;
+
+  }
+  .containers {
+    text-align: center;
+    margin-top: -40px;
+    margin-left: 700px;
+  }
+  .containers .head {
+    margin-bottom: -20px;
+    margin-top: 90px;
+    color: black;
+  }
+  .form-groups {
+    margin-bottom: -20px;
+    margin-top: 30px;
+  }
+
+.moved-main{
+  position: absolute;
+  top: 140px; 
+  max-width: 800px;
+  left: 800px; 
+  transform: translateX(-50%);
+  background-color: #aaebe0;
+  padding: 20px;
+}
+table {
+  width: 500px;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+/* Actions links */
+td a {
+  color: #007bff;
+  text-decoration: none;
+  margin-right: 10px;
+  transition: color 0.3s ease;
+}
+
+td a:hover {
+  color: #0056b3;
+}
+
+/* Add some spacing between action links */
+td a + a {
+  margin-left: 10px;
+}
+
+.container .header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 82vw;
+    height: 10vh;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container .header .nav{
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+
+
+.container .header .nav .user{
+    margin-left: 1020px ;
+}
+
+.container .header .nav .user button{
+    width: 40px;
+    height: 40px;
+}
+
+
+.container .header .nav .user img:hover{
+    background-color: #f1f1f1;
+    border-radius: 5px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+.container {
+  max-width: 400px;
+  margin: 40px auto;
+  /* padding: 20px; */
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+
+
+textarea {
+  resize: vertical;
+}   
+
+button {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.contain{
+   margin-left: 500px;
+   /* margin-top: 70px; */
+   padding-top: 100px;
+   margin-top: -40px;
+  /* padding:200px; */
+}
+
+.center-contain {
+  position: relative;
+  margin-bottom: 200px;
+  max-width: 900px;
+  /* margin: 0 auto; */
+  /* padding: 20px; */
+}
+
+.update{
+  text-align: center;
+    margin-left: 700px;
+    margin-top: 50px;
+    
+}
+
+.update h2{
+  font-size: 30px;
+  color: black;
+}
+
+input{
+    margin-bottom: 30px;
+    margin-top: 0px;
+  }
+
+  input[type="text"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #060606;
+  border-radius: 4px;
+}
+
+textarea{
+  white-space: pre-wrap; 
+}
